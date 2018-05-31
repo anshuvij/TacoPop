@@ -16,6 +16,14 @@
 		14B726E720C0674000ABE95A /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B726E620C0674000ABE95A /* DropShadow.swift */; };
 		14B726E920C0681B00ABE95A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B726E820C0681B00ABE95A /* HeaderView.swift */; };
 		14E86A5020C0708A008F5195 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A4F20C0708A008F5195 /* Taco.swift */; };
+		14E86A5220C07C2A008F5195 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A5120C07C2A008F5195 /* DataService.swift */; };
+		14E86A5720C07F36008F5195 /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A5520C07F36008F5195 /* TacoCell.swift */; };
+		14E86A5820C07F36008F5195 /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E86A5620C07F36008F5195 /* TacoCell.xib */; };
+		14E86A5A20C0841F008F5195 /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A5920C0841F008F5195 /* ReuseableView.swift */; };
+		14E86A5C20C084A7008F5195 /* NibLoadedableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A5B20C084A7008F5195 /* NibLoadedableView.swift */; };
+		14E86A5E20C0850F008F5195 /* UIcollectionView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A5D20C0850F008F5195 /* UIcollectionView+ext.swift */; };
+		14E86A6020C08A20008F5195 /* MutuableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A5F20C08A20008F5195 /* MutuableCollection+Ext.swift */; };
+		14E86A6220C08B91008F5195 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E86A6120C08B91008F5195 /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		14B726E620C0674000ABE95A /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		14B726E820C0681B00ABE95A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		14E86A4F20C0708A008F5195 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		14E86A5120C07C2A008F5195 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		14E86A5520C07F36008F5195 /* TacoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		14E86A5620C07F36008F5195 /* TacoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
+		14E86A5920C0841F008F5195 /* ReuseableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
+		14E86A5B20C084A7008F5195 /* NibLoadedableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadedableView.swift; sourceTree = "<group>"; };
+		14E86A5D20C0850F008F5195 /* UIcollectionView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcollectionView+ext.swift"; sourceTree = "<group>"; };
+		14E86A5F20C08A20008F5195 /* MutuableCollection+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MutuableCollection+Ext.swift"; sourceTree = "<group>"; };
+		14E86A6120C08B91008F5195 /* Shakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +103,8 @@
 				1421B61820BF202500B73192 /* Main.storyboard */,
 				1421B61D20BF202500B73192 /* LaunchScreen.storyboard */,
 				14B726E820C0681B00ABE95A /* HeaderView.swift */,
+				14E86A5520C07F36008F5195 /* TacoCell.swift */,
+				14E86A5620C07F36008F5195 /* TacoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				14E86A4F20C0708A008F5195 /* Taco.swift */,
+				14E86A5120C07C2A008F5195 /* DataService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				14B726E620C0674000ABE95A /* DropShadow.swift */,
+				14E86A5920C0841F008F5195 /* ReuseableView.swift */,
+				14E86A5B20C084A7008F5195 /* NibLoadedableView.swift */,
+				14E86A6120C08B91008F5195 /* Shakeable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -120,6 +142,8 @@
 		1421B62B20BF219E00B73192 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				14E86A5D20C0850F008F5195 /* UIcollectionView+ext.swift */,
+				14E86A5F20C08A20008F5195 /* MutuableCollection+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -187,6 +211,7 @@
 				14B726E520C0640500ABE95A /* TacoPOPData.csv in Resources */,
 				1421B61C20BF202500B73192 /* Assets.xcassets in Resources */,
 				1421B61A20BF202500B73192 /* Main.storyboard in Resources */,
+				14E86A5820C07F36008F5195 /* TacoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,10 +222,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E86A5E20C0850F008F5195 /* UIcollectionView+ext.swift in Sources */,
+				14E86A5720C07F36008F5195 /* TacoCell.swift in Sources */,
+				14E86A5A20C0841F008F5195 /* ReuseableView.swift in Sources */,
 				1421B61520BF202500B73192 /* AppDelegate.swift in Sources */,
 				14B726E720C0674000ABE95A /* DropShadow.swift in Sources */,
 				1421B62D20BF21FB00B73192 /* MainVC.swift in Sources */,
+				14E86A6020C08A20008F5195 /* MutuableCollection+Ext.swift in Sources */,
+				14E86A5220C07C2A008F5195 /* DataService.swift in Sources */,
+				14E86A5C20C084A7008F5195 /* NibLoadedableView.swift in Sources */,
 				14E86A5020C0708A008F5195 /* Taco.swift in Sources */,
+				14E86A6220C08B91008F5195 /* Shakeable.swift in Sources */,
 				14B726E920C0681B00ABE95A /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
